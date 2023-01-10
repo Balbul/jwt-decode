@@ -30,6 +30,12 @@ jwt-decode-cli eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwi
 
 you immediately get the decoded token
 
+want to try it ?
+
+```bash
+npx jwt-decode-cli eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMe
+```
+
 ## License
 
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
