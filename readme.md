@@ -17,7 +17,7 @@
 ## installation for usage
 
 ```bash
-npm i -g jwt-decode
+npm i -g jwt-decode-cli
 ```
 
 ## documentation
@@ -25,7 +25,7 @@ npm i -g jwt-decode
 You only have to use the command with a valide JWT like this :
 
 ```bash
-jwt-decode eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMe
+jwt-decode-cli eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMe
 ```
 
 you immediately get the decoded token
