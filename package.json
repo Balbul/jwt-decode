@@ -7,11 +7,16 @@
   "scripts": {
     "start": "tsc && node dist/index.js",
     "build": "tsc",
-    "publish": "",
+    "prepublish": "npm run build",
+    "publish": "npm publish --access public",
     "test": ""
   },
   "bin": {
     "jwt-decode": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nestjs/nest-cli.git"
   },
   "keywords": [
     "jwt",
