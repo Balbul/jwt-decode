@@ -1,1 +1,0 @@
-{"version":"1.0.2","name":"jwt-decode-cli","dependencies":{"chalk":{"version":"4.1.2"},"commander":{"version":"9.5.0"},"jsonwebtoken":{"version":"9.0.0"}}}
