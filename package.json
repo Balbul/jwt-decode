@@ -1,6 +1,6 @@
 {
   "name": "jwt-decode-cli",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "CLI to decode your JSON Web Token",
   "main": "index.js",
   "type": "commonjs",

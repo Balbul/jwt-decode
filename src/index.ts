@@ -22,7 +22,11 @@ program.parse();
 function JWTdecode(token: string) {
   try {
     const decodedToken = decode(token, { complete: true });
-    log({ succes: true, message: "data", data: decodedToken });
+    if (decodedToken) {
+      log({ succes: true, message: "data", data: decodedToken });
+    } else {
+      log({ succes: false, message: "jwt error : give a valid token" });
+    }
   } catch (e) {
     log({ succes: false, message: "jwt error : wrong signature" });
   }
